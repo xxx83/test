@@ -1,0 +1,14 @@
+web/bundles/
+app/bootstrap.php.cache
+app/cache/*
+app/logs/*
+app/SymfonyRequirements.php
+build/
+/vendor
+composer.phar
+.vagrant*
+bin/
+
+# Assetic will create JavaScripts and style sheets
+web/js/
+web/css/
