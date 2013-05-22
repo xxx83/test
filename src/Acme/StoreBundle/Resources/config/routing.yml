@@ -1,0 +1,13 @@
+store_index:
+  pattern : /store/{name}
+  defaults : {_controller: AcmeStoreBundle:Store:index }
+new_product:
+  pattern: /new
+  defaults: {_controller: AcmeStoreBundle:Store:newProduct }
+show_product:
+  pattern: /show/{id}
+  defaults: {_controller: AcmeStoreBundle:Store:showProduct }
+update_product:
+  pattern: /update/{id}
+  defaults: {_controller: AcmeStoreBundle:Store:updateProduct }
+  
